@@ -1,12 +1,12 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '.../.../assets/logo.svg'
-
+import logo from '../../assets/logomatchstickname.png'
+/*change the logo*/
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img src={logo} alt="" />
+      <img src={logo} alt="logo" className='logo' />
       <ul className="nav-menu">
         <li>Home</li>
         <li>About Me</li>
