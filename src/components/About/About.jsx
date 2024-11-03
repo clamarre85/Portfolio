@@ -17,37 +17,36 @@ const About = () => {
         </div>
         <div className="about-right"> {/* Fixed casing */}
           <div className="about-para">
-            <p>I am an experienced</p>
+            <p>I am an experienced Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Ipsum possimus cum voluptatem nihil atque, totam exercitationem, corporis sunt earum, non neque molestias. 
+              Ullam a delectus commodi laudantium autem quod atque.</p>
             <p>My passion for frontend development</p>
           </div>
           <div className="about-skills">
-            <div className="about-skill">
-              <p>HTML & CSS</p>
-              <hr style={{ width: "50%" }} />
-            </div>
-            <div className="about-skill">
-              <p>ReactJS</p>
-              <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
-              <p>JavaScript</p>
-              <hr style={{ width: "60%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Python</p>
-              <hr style={{ width: "50%" }} />
+            <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "50%" }} /></div>
+            <div className="about-skill"><p>ReactJS</p><hr style={{ width: "70%" }} /></div>
+            <div className="about-skill"><p>JavaScript</p><hr style={{ width: "60%" }} /></div>
+            <div className="about-skill"><p>Python</p><hr style={{ width: "50%" }} />
             </div>
           </div>
         </div>
       </div>
-      <div className="about-achievement"><div className="about-achievement"><h1>10+</h1><p>Years of Experience</p>
+      <div className="about-achievements">
+        <div className="about-achievement">
+        <h1>10+</h1>
+        <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr />
-        <div className="about-achievement"><h1>90+</h1><p>Projects Completed</p>
+        <div className="about-achievement">
+          <h1>2+</h1>
+          <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
-        <div className="about-achievement"><h1>10+</h1><p>Years of Experience</p>
+        <div className="about-achievement">
+          <h1>10+</h1>
+          <p>YEARS OF EXPERIENCE</p>
         </div>
+        <hr/>
       </div>  
     </div>
   );

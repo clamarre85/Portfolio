@@ -61,28 +61,28 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
 }
-.about-achievments{
+.about-achievements{
     display: flex;
     width: 100%;
     justify-content: space-around;
     margin-bottom: 80px;
 }
-.about-achievment{
+.about-achievement{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     transition: 0.5s;
 }
-.about-achievment h1{
+.about-achievement h1{
     font-size: 60px;
     font-weight: 700;
-    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90);
+    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.about-achievment p{
+.about-achievement p{
     font-size: 22px;
     font-weight: 500;
     align-items: center;
@@ -91,7 +91,7 @@
     transform: scale(1.05);
     transition: 0.3s;
 }
-.about-achievment:hover{
+.about-achievement:hover{
     transform: scale(1.12);
     transition: 0.5s;
 }
@@ -99,4 +99,36 @@
     width: 200px; 
     height: 200px;
 }
-
+@media(max-width:768px){
+    .about{
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+    .about-title h1{
+        padding: 0;
+        font-size: 50px;
+    }
+    .about-title img{
+        width: 130px;
+        margin-right: -20px;
+    }
+    .about-format{
+        gap: 20px;
+        padding: 32px;
+    }
+    .about-format h2{
+        font-size: 28px;
+    }
+    .about-format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+    .about-readmore img{
+        width: 20px;
+    }
+    .about-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
