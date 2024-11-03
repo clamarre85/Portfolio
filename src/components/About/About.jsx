@@ -20,7 +20,7 @@ const About = () => {
             <p>I am an experienced Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
               Ipsum possimus cum voluptatem nihil atque, totam exercitationem, corporis sunt earum, non neque molestias. 
               Ullam a delectus commodi laudantium autem quod atque.</p>
-            <p>My passion for frontend development</p>
+            <p>My passion for frontend development. Driven by Code, Fueled by Curiosity</p>
           </div>
           <div className="about-skills">
             <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "50%" }} /></div>

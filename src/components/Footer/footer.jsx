@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import footer_logo from '../../assets/footer_logo.svg'; // make sure this path is correct
+import footer_logo from '../../assets/birdlogo.png'; // make sure this path is correct
 import user_icon from '../../assets/user_icon.svg'; // make sure this path is correct
 
 const Footer = () => {

@@ -4,6 +4,15 @@
     flex-direction: column;
     gap: 30px;
 }
+.logo{
+    width: 60px; 
+    height: auto; 
+    margin-right: 20px;
+}
+.footer img {
+    max-width: 180px; /* Set a maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
 .footer-top{
     display: flex;
     justify-content: space-between;
@@ -12,7 +21,7 @@
     font-size: 20px;
     max-width: 400px;
 }
-footer-top-right{
+.footer-top-right{
     display: flex;
     align-items: center;
     gap: 35px;
@@ -70,5 +79,8 @@ footer-top-right{
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 50px;
+    }
+    .logo{
+        width: 50px;        
     }
 }
